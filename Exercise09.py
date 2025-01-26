@@ -6,7 +6,7 @@ import asyncio
 import nest_asyncio
 nest_asyncio.apply()
 
-TELEGRAM_BOT_TOKEN = "6776228304:AAG1GZIDeWaS7jMO9g4uxTc3Bo2dFrqQG00"
+TELEGRAM_BOT_TOKEN = ""
 
 MODEL_PATH = "TinyLlama/TinyLlama-1.1B-Chat-v1.0" 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
